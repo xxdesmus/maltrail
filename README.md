@@ -89,7 +89,7 @@ The following set of commands should get your Maltrail **Sensor** up and running
 
 ```
 sudo apt-get install python-pcapy
-git clone https://github.com/stamparm/maltrail.git
+git clone https://github.com/xxdesmus/maltrail.git
 cd maltrail
 sudo python sensor.py
 ```
@@ -99,7 +99,7 @@ sudo python sensor.py
 To start the (optional) **Server** on same machine, open a new terminal and execute the following:
 
 ```
-[[ -d maltrail ]] || git clone https://github.com/stamparm/maltrail.git
+[[ -d maltrail ]] || git clone https://github.com/xxdesmus/maltrail.git
 cd maltrail
 python server.py
 ```
